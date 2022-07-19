@@ -6,19 +6,16 @@ body {
   background-color: var(--color-grey-3);
 }
 
-.user-card {
-  width: 420px;
+.box {
+  width: 400px;
+  height: 300px;
   background-color: var(--color-grey-4);
   border-radius: var(--border-radius-1);
   overflow: hidden;
-}
-
-.user-card-header {
   position: relative;
-  height: 240px;
 }
 
-.user-card-status {
+.item1 {
   --space-element: 8px;
   position: absolute;
   top: var(--space-element);
@@ -31,31 +28,11 @@ body {
   border-radius: calc(var(--border-radius-1) * 2);
 }
 
-.user-card-header img {
+.item2 {
   position: absolute;
   width: 100%;
   height: 100%;
   top: 0;
   left: 0;
   object-fit: cover;
-}
-
-.user-card-content {
-  display: flex;
-  flex-direction: column;
-  gap: 32px;
-  padding: 48px 32px;
-}
-
-.user-card-title {
-  font-size: 40px;
-  font-weight: 600;
-  color: var(--color-grey-1);
-}
-
-.user-card-description {
-  font-size: 20px;
-  font-weight: 400;
-  line-height: 32px;
-  color: var(--color-grey-2);
 }
